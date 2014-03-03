@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author       = { "David Román" => "dromaguirre@gmail.com" }
     s.platform     = :ios, '6.0'
     s.source       = { :git => "https://github.com/kazekim/DRDynamicSlideShow.git", :tag => "1.0", :commit => "83fd28a37b5495e9c99ab4c3cf6060ba5721cf3c" }
-    s.source_files = 'Classes', 'DRDynamicSlideShow/DRDynamicSlideShow.{h,m}'
+    s.source_files = 'Classes', 'DRDynamicSlideShow.{h,m}'
     s.framework    = 'UIKit'
     s.requires_arc = true
 end
