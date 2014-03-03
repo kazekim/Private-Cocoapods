@@ -3,7 +3,6 @@ Pod::Spec.new do |s|
     s.version      = "1.0"
     s.summary      = "A UIScrollView subclass to easily implement an amazing swiping interactive slide show, as IFTTT's."
     s.homepage     = "https://github.com/kazekim/DRDynamicSlideShow"
-    s.screenshots  = "https://raw.github.com/kazekim/DRDynamicSlideShow/screenshots/Screenshots/DRDynamicSlideShow.gif"
     s.license      = 'Public Domain'
     s.author       = { "David Román" => "dromaguirre@gmail.com" }
     s.platform     = :ios, '6.0'
