@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ANBlurredImageView.podspec"
+  s.name         = "ANBlurredImageView"
   s.version      = "1.0"
   s.summary      = "Subclass of UIImageView for animating the blurring and unblurring of images with a tint color. Useful for quick transitions and bringing focus to the foreground."
 
