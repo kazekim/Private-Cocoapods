@@ -10,4 +10,16 @@ Pod::Spec.new do |s|
     s.source_files = 'Classes', 'JHSlideUpGalleryViewController/*'
     s.framework    = 'UIKit'
     s.requires_arc = true
+
+  ### Subspecs
+  s.subspec 'Network' do |ns|
+    ns.header_dir     = 'RestKit/Network'
+    ns.source_files   = 'Code/Network'
+    ns.ios.frameworks = 'CFNetwork', 'Security', 'MobileCoreServices', 'SystemConfiguration'
+    ns.osx.frameworks = 'CoreServices', 'Security', 'SystemConfiguration'
+    ns.dependency       'SOCKit'
+    ns.dependency       'AFNetworking', '1.1.0'
+    ns.dependency       'RestKit/ObjectMapping'
+    ns.dependency       'RestKit/Support'
+  end
 end
