@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => 'MIT', :text => 'The TYMActivityIndicatorView source code is copyright 2014 David Román and is licensed under the terms of the MIT license.' }
     s.author       = { "David Román" => "dromaguirre@gmail.com" }
     s.platform     = :ios, '6.0'
-    s.source       = { :git => "https://github.com/kazekim/DRDynamicSlideShow.git", :commit => "3bdddbcbf3c31d632cfd004ee5d6e089d528f565" }
+    s.source       = { :git => "https://github.com/kazekim/DRDynamicSlideShow.git", :commit => "8af3b81ea87a5b073b0353766756638d90ccab70" }
     s.source_files = 'Classes', 'DRDynamicSlideShow/*'
     s.framework    = 'UIKit'
     s.requires_arc = true
