@@ -15,10 +15,10 @@ LICENSE
   s.source = { :http => "http://dl.google.com/googleadmobadssdk/googlemobileadssdkios.zip" }
   s.platform = :ios
 
-  s.source_files = 'GoogleAdMobAdsSdkiOS-6.9.2/*.h'
-  s.preserve_paths = 'GoogleAdMobAdsSdkiOS-6.9.2'
+  s.source_files = 'GoogleMobileAdsSdkiOS-6.9.2/*.h'
+  s.preserve_paths = 'GoogleMobileAdsSdkiOS-6.9.2'
 
   s.framework = %w{AVFoundation AudioToolbox CoreTelephony MessageUI SystemConfiguration CoreGraphics AdSupport}
   s.library = 'GoogleAdMobAds'
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Google-AdMob-Ads-SDK/GoogleAdMobAdsSdkiOS-6.9.2"' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Google-AdMob-Ads-SDK/GoogleMobileAdsSdkiOS-6.9.2"' }
 end
